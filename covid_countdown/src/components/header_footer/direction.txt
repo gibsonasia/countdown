@@ -1,0 +1,1 @@
+we can put navbar and various other footer elements in this folder

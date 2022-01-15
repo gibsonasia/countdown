@@ -1,0 +1,1 @@
+we can have a carrousel here or whatever other feature type we want. This will be the main screen of the page most likely.
