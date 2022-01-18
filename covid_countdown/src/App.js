@@ -5,7 +5,9 @@ import {Navbar, Container, Nav} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 import './resources/style.css';
+import Footer from './components/header_footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
     <header className="App-header">
       Hi This is our application
     </header>
+
+    <Footer/>
   </div>
   );
 }
