@@ -1,6 +1,8 @@
+
+
 .main-footer {
     color: white;
-    background-image: url('./footer.png');
+    background-image: url('/public/footer.png');
     background-size: contain;
     padding-top: 3em;
     position: relative;
