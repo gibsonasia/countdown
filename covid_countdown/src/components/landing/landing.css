@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {  
+	--primary-color: #4f73eb;  /* Sets the default color of the background*/ 
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;  /* Sets the font and line height of the text in the body*/ 
+	line-height: 1.4;
+}
+
+
+h1 {                                     /* Sets the font weight, font size, font height, and margin bottom of h1 */
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+.landing {                              
+
+	position: relative;
+	height: 100vh;               /* Makes sure it takes up 100 percent of the viewport height */
+	display: flex;
+	align-items: center;          /* Centers the entire content */
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px; 
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;   /* Hides the scroll bar */
+	background: var(--primary-color) (images/background.jpg) no-repeat center
+		center/cover;   /* Displays the background in the same position of the video, when the page is loaded */
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;             /* This is to keep the video in the middle when the window is minimized */
+	left: 50%;
+	transform: translate(-50%, -50%);  
+	object-fit: cover;  
+}
+
+.video-container:after {      /* Overlay to adjust the darkness of the video */
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);  /* last value adjusts the opacity */
+	position: absolute;
+}
+
+.content {
+	z-index: 10;  /* Moves the text in front of the video */
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    border: solid #fff 1px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
