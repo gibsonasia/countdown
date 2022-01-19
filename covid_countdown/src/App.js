@@ -9,6 +9,7 @@ import Header from './components/header_footer/Header'
 import Footer from './components/header_footer/Footer'
 import Pricing from './components/pricing'
 import Highlights from './components/Highlights'
+import Countdown from './components/Countdown/countdown';
 
 class App extends Component {
   render() {
@@ -19,6 +20,12 @@ class App extends Component {
         <Element name="landing">
           <Landing/>
         </Element>
+
+        <Element name="Countdown">
+          <Countdown/>
+        </Element>
+
+
         <Element name="about">
           <About/>
         </Element>
