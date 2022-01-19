@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./CovidData.css";
-  
+
 function CovidData() {
   const [country, setCountry] = useState("");
   const [cases, setCases] = useState("");
@@ -10,7 +10,7 @@ function CovidData() {
   const [deathCases, setDeathCases] = useState("");
   const [recoveredCases, setRecoveredCases] = useState("");
   const [userInput, setUserInput] = useState("");
-  
+
   useEffect(() => {
     fetch("https://disease.sh/v3/covid-19/countries")
       .then((res) => res.json())
@@ -18,7 +18,7 @@ function CovidData() {
         setData(data);
       });
   }, []);
-  
+
   const setData = ({
     country,
     cases,
@@ -36,7 +36,7 @@ function CovidData() {
     setDeathCases(todayDeaths);
     setRecoveredCases(todayRecovered);
   };
-  
+
   const handleSearch = (e) => {
     setUserInput(e.target.value);
   };
@@ -48,37 +48,42 @@ function CovidData() {
         setData(data);
       });
   };
-  
+
   return (
-    <div className="covidData">
-      <h1>COVID-19 CASES COUNTRY WISE</h1>
-      <div className="covidData__input">
-        <form onSubmit={handleSubmit}>
-          {/* input county name */}
-          <input onChange={handleSearch} placeholder="Enter Country Name" />
-          <br />
-          <button type="submit">Search</button>
-        </form>
+    <div>
+      <div className="covidData">
+        <h1>COVID-19 CASES COUNTRY WISE</h1>
+        <div className="covidData__input">
+          <form onSubmit={handleSubmit}>
+            {/* input county name */}
+            <input onChange={handleSearch} placeholder="Enter Country Name" />
+            <br />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+
+        {/* Showing the details of the country */}
+        <div className="covidData__country__info">
+          <p>Country Name : {country} </p>
+
+          <p>Cases : {cases}</p>
+
+          <p>Deaths : {deaths}</p>
+
+          <p>Recovered : {recovered}</p>
+
+          <p>Cases Today : {todayCases}</p>
+
+          <p>Deaths Today : {deathCases}</p>
+
+          <p>Recovered Today : {recoveredCases}</p>
+        </div>
       </div>
-  
-      {/* Showing the details of the country */}
-      <div className="covidData__country__info">
-        <p>Country Name : {country} </p>
-  
-        <p>Cases : {cases}</p>
-  
-        <p>Deaths : {deaths}</p>
-  
-        <p>Recovered : {recovered}</p>
-  
-        <p>Cases Today : {todayCases}</p>
-  
-        <p>Deaths Today : {deathCases}</p>
-  
-        <p>Recovered Today : {recoveredCases}</p>
+      <div>
+        <a className="covid-test-link" href="https://special.usps.com/testkits" target="_blank" rel="noreferrer">Get your covid test here</a>
       </div>
     </div>
   );
 }
-  
+
 export default CovidData;
