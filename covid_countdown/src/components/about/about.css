@@ -34,7 +34,10 @@ h1 {                                     /* Sets the font weight, font size, fon
 }
 
 #about p {
+	font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     max-width: 600px;
     margin: auto;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
 }

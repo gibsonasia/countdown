@@ -26,8 +26,8 @@ const Footer = () => {
                     <div className="col">
                         <input type="email" placeholder="Email Address" ></input> 
                         <button type="submit" value="submit">Submit</button>
-                        <p>Content Disclaimer: This is a fake website please dont believe everything in here. 
-                            Blah blah blah, we don’t actually believe covid 19 is fake in anyway. but the image 
+                        <p>Content Disclaimer: This is a fake website. Please don't believe everything on here. 
+                            We don’t actually believe covid 19 is fake in anyway.The image 
                             looked good so its the footer. Also, please don’t sue us for using the images</p>
                     </div>
                 </div>
