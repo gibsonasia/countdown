@@ -7,7 +7,7 @@ import {FaTwitterSquare,
 
 
 const Footer = () => {
-    let iconStyles = {color: "black", height:"50px", width: "50px"} ; //Used to manage icons css
+    let iconStyles = {color: "black", height:"50px", width: "50px" } ; //Used to manage icons css
     return(
         <div className="main-footer">
             <div className="container">
@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     {/* Column 2 */}
                     <div className="col2">
-                        <h2>End of Covid 19</h2>
+                        <h1>End of Covid 19</h1>
                     </div>
                     {/* Column 3 */}
                 
