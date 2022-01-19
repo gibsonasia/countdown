@@ -1,0 +1,36 @@
+
+
+.main-footer {
+    color: white;
+    background-image: url('/public/footer.png');
+    background-size: contain;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 300px;
+    flex-shrink: 0;
+  }
+
+.container {
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.col {
+    
+    float: left;
+    width: 33.33%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+li {
+    font-size: 20px;
+}
