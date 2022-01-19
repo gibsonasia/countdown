@@ -5,6 +5,11 @@ import vid from "../../resources/videos/COVID19.mp4"
 
 import "./landing.css";
 
+/*
+I had asistance from the following videos for adding the video on to the backkground of the site
+  https://www.youtube.com/watch?v=Gx_7GQtSdpc
+  - Jaspreet Sangh
+*/
 
 const Landing = () =>  {
     return( <div>
