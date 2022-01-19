@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {  
+	--primary-color: #4f73eb;  /* Sets the default color of the background*/ 
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;  /* Sets the font and line height of the text in the body*/ 
+	line-height: 1.4;
+}
+
+
+h1 {                                     /* Sets the font weight, font size, font height, and margin bottom of h1 */
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+
+.content {
+	z-index: 10;  /* Moves the text in front of the video */
+}
+
+#about {
+    padding: 40px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+}
