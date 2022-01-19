@@ -1,5 +1,4 @@
-
-
+/* Add image and structure for filter */
 .main-footer {
     color: white;
     background-image: url('/public/footer.jpg');
@@ -11,11 +10,13 @@
     height: 300px;
   }
 
+/* Added blur so text is more transparent under image */
 .container {
     backdrop-filter: blur(4px);
 
 }
 
+/* Column setup */
 .col1 { 
     float: center;
     width: 33.33%;
@@ -71,6 +72,7 @@ input {
     font-size: 20px;
 }
 
+/* Styling for Button */
 button {
     background-color: #006400 ;
     border-radius: 8px;
