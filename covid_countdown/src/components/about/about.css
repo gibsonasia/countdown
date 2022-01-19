@@ -10,6 +10,7 @@
 	padding: 0;
 }
 
+
 body {
 	font-family: 'Poppins', sans-serif;  /* Sets the font and line height of the text in the body*/ 
 	line-height: 1.4;
@@ -21,6 +22,7 @@ h1 {                                     /* Sets the font weight, font size, fon
 	font-size: 60px;
 	line-height: 1.2;
 	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
 }
 
 
