@@ -14,7 +14,7 @@ const Landing = () =>  {
         </div>
         <div className="content">
             <h1>End of COVID-19 Countdown</h1>
-            <h3>Please dont take this site seriously bruh</h3>
+            <h3>Please dont take this site seriously</h3>
             <a href="#about" className="btn">Read More</a>
         </div>
     </section>
