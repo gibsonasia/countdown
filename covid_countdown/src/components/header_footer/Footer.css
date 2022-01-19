@@ -1,36 +1,114 @@
-
-
+/* Add image and structure for filter */
 .main-footer {
     color: white;
-    background-image: url('/public/footer.png');
+    background-image: url('/public/footer.jpg');
     background-size: contain;
-    padding-top: 7em;
+    padding-top: 2%;
     position: relative;
-    bottom: 0;
-    width: 100%;
     display: flex;
     flex-direction: column;
-    flex: 1;
     height: 300px;
-    flex-shrink: 0;
+    width: 100%;
   }
 
-.container {
-    text-align: center;
-    vertical-align: text-top;
+/* Added blur so text is more transparent under image */
+.container-footer {
+    backdrop-filter: blur(4px);
 }
 
-.col {
-    font-size: 15px;
-    float: left;
+/* Column setup */
+.col1 { 
+    float: center;
     width: 33.33%;
+    text-align: left;
+    padding-left: 5%;
 }
 
-ul {
+.col2 {
+    float: center;
+    width: 33.33%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.col3 {
+    width: 33.33%;
+    text-align: right;
+    padding-right: 5%;
+}
+
+/* Used to control each row */
+.row-footer {
+    display: flex;
+    flex: 33.33%;
+    padding: 5px;
+    justify-content: center;
+}
+
+/* Used to control the address nad icons portion */
+.ulstuff {
     list-style-type: none;
+    text-align: center;
+}
+
+/* Used to control the address portion */
+li {
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+}
+
+/* Used to manage the disclaimer */
+#footer-p {
+    font-size: 12px;
+    max-width: 250px;
+    position: absolute;
+    bottom: 3em;
+    right: 5%;
     text-align: left;
 }
 
-li {
-   
+/* Puts space between icons */
+.astuff { 
+    padding: 10px 30px;
 }
+
+.footer-input {
+    font-size: 20px;
+}
+
+/* Styling for Button */
+.footer-button {
+    background-color: #4f73eb
+    ;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+.footer-button:hover,
+.footer-button:focus {
+  background-color: #9caff0;
+}
+
