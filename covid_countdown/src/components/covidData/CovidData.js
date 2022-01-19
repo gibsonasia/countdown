@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./CovidData.css";
+import MyButton from '../utils/MyButton'
 
 function CovidData() {
   const [country, setCountry] = useState("");
@@ -50,7 +51,7 @@ function CovidData() {
   };
 
   return (
-    <div>
+    <div className="dataContainer">
       <div className="covidData">
         <h1>COVID-19 CASES COUNTRY WISE</h1>
         <div className="covidData__input">
@@ -79,8 +80,13 @@ function CovidData() {
           <p>Recovered Today : {recoveredCases}</p>
         </div>
       </div>
-      <div>
-        <a className="covid-test-link" href="https://special.usps.com/testkits" target="_blank" rel="noreferrer">Get your covid test here</a>
+      <div class="covidData_button">
+      <MyButton
+          text="Get free covid tests here."
+          bck="#29C5F6"
+          color="#ffffff"
+          link={"https://special.usps.com/testkits"}
+        />
       </div>
     </div>
   );

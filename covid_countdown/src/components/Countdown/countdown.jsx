@@ -53,7 +53,7 @@ class Countdown extends Component {
                                 {this.state.hours}
                             </div>
                             <div className="countdown_tag">
-                                Hs
+                                HRS
                             </div>
                         </div>
                         <div className="countdown_item">

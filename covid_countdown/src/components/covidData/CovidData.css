@@ -1,11 +1,13 @@
-body {
-    background-color: rgb(102, 226, 102);
+
+  .dataContainer{
+    background: #3c3c3c;
   }
+
   .covidData {
-    background-color: green;
+    border:2px solid #E4002C;;
     width: 30%;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 0;
     border-radius: 6px;
     padding: 10px;
   }
@@ -56,3 +58,11 @@ body {
   .covid-test-link {
     font-size: 1.5rem;
   }
+
+ 
+.covidData_button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  

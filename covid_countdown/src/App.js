@@ -9,7 +9,8 @@ import Header from './components/header_footer/Header'
 import Footer from './components/header_footer/Footer'
 import Pricing from './components/pricing'
 import Highlights from './components/Highlights'
-import Countdown from './components/Countdown/countdown';
+import Countdown from './components/Countdown/countdown'
+import CovidData from './components/covidData/CovidData'
 
 class App extends Component {
   render() {
@@ -36,6 +37,10 @@ class App extends Component {
 
         <Element name="pricing">
           <Pricing/>
+        </Element>
+
+        <Element name="coviddata">
+          <CovidData/>
         </Element>
 
         <Footer/>
