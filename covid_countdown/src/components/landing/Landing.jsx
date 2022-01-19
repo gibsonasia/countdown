@@ -1,9 +1,9 @@
 import React from 'react';
-import bg from "../images/background.jpg"
-import vid from "../videos/COVID19.mp4"
+
+import bg from "../../resources/images/background.jpg"
+import vid from "../../resources/videos/COVID19.mp4"
+
 import "./landing.css";
-
-
 
 
 const Landing = () =>  {
