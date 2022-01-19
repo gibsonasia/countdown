@@ -4,7 +4,7 @@ import Discount from './Discount';
 
 const Highlights = () => {
     return (
-        <div className="highlight_wrapper">
+        <div className="highlight_wrapper" id="highlights">
             <Description/>
             <Discount/>
         </div>

@@ -8,11 +8,13 @@ import Landing from './components/landing/Landing'
 import Footer from './components/header_footer/Footer'
 import Pricing from './components/pricing'
 import Highlights from './components/Highlights'
+import Navigation from './components/Navigation'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navigation/>
 
         <Element name="landing">
           <Landing/>
