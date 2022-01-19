@@ -17,8 +17,8 @@ const Footer = () => {
                     </div>
                     {/* Column 2 */}
                     <div className="col">
-                        <ul classname="list-unstyled">
-                            <li>Website Name</li>
+                        <ul classname="list-">
+                            <li>© 2022 group one.  All rights reserved.</li>
                         </ul>
                     </div>
                     {/* Column 3 */}
@@ -26,7 +26,7 @@ const Footer = () => {
                     <div className="col">
                         <input type="email" placeholder="Email Address" ></input> 
                         <button type="submit" value="submit">Submit</button>
-                        <p>Content Disclaimer: This is a fake website plase dont believe everything in here. 
+                        <p>Content Disclaimer: This is a fake website please dont believe everything in here. 
                             Blah blah blah, we don’t actually believe covid 19 is fake in anyway. but the image 
                             looked good so its the footer. Also, please don’t sue us for using the images</p>
                     </div>

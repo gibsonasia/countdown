@@ -4,7 +4,7 @@
     color: white;
     background-image: url('/public/footer.png');
     background-size: contain;
-    padding-top: 3em;
+    padding-top: 7em;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -21,7 +21,7 @@
 }
 
 .col {
-    
+    font-size: 15px;
     float: left;
     width: 33.33%;
 }
@@ -32,5 +32,5 @@ ul {
 }
 
 li {
-    font-size: 20px;
+   
 }
