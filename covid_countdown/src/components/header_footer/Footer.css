@@ -2,7 +2,7 @@
 
 .main-footer {
     color: white;
-    background-image: url('/public/footer.png');
+    background-image: url('/public/footer.jpg');
     background-size: contain;
     padding-top: 3em;
     position: relative;
@@ -18,12 +18,13 @@
 .container {
     text-align: center;
     vertical-align: text-top;
+    backdrop-filter: blur(2px);
 }
 
 .col {
-    
     float: left;
     width: 33.33%;
+    text-align: left;
 }
 
 ul {
