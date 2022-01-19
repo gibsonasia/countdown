@@ -50,7 +50,7 @@ function CovidData() {
   };
 
   return (
-    <div>
+    <div className="dataContainer">
       <div className="covidData">
         <h1>COVID-19 CASES COUNTRY WISE</h1>
         <div className="covidData__input">

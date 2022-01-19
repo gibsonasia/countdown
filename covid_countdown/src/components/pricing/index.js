@@ -10,7 +10,7 @@ class Pricing extends Component {
         desc:[ 
             'With one booster shot, you will be able to upkeep your human apperance. We reccommend this one for the average consumer or reptile.',
         '2 booster shots will give you the ability to not only upkeep your human apperance, but also interchange between reptile form and human! WOWZA',
-        '3 BOOSTER SHOTS, THIS IS THE MEGA SUPER DEAL! ALL THE BENEFITS OF THE PREVIOUS PACKAGES WITH THE ADDITION OF BECOMING MEGA BOWSER. '
+        '3 BOOSTER SHOTS, THIS IS THE MEGA SUPER DEAL! ALL THE BENEFITS OF THE PREVIOUS PACKAGES AND BECOME MEGA REPTILE. '
         ],
         linkto:['http://sales/b','http://sales/m','http://sales/s'],
         delay:[500,0,500]
