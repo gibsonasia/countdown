@@ -6,7 +6,7 @@ class Pricing extends Component {
     
     state = {
         prices:[100,150,250],
-        positions:['1 Booster','2 Booster','3 Booster'],
+        positions:['1 Booster','2 Booster','10 Booster'],
         desc:[ 
             'With one booster shot, you will be able to upkeep your human apperance. We reccommend this one for the average consumer or reptile.',
         '2 booster shots will give you the ability to not only upkeep your human apperance, but also interchange between reptile form and human! WOWZA',
