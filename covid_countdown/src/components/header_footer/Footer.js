@@ -1,7 +1,11 @@
 import React from "react";
 import './Footer.css'
+import {FaTwitterSquare} from 'react-icons/fa'
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
+    let iconStyles = {color: "blue", height:"50px", width: "50px"} ;
     return(
         <div className="main-footer">
             <div className="container">
@@ -31,6 +35,15 @@ const Footer = () => {
                 </div>
 
                 <div className="row">
+                    <a href="#/">
+                        <FaTwitterSquare style={iconStyles}/>
+                    </a>
+                    <a href="#/">
+                        <FaFacebookSquare style={iconStyles}/>
+                    </a>
+                    <a href="#/">
+                        <FaInstagramSquare style={iconStyles}/>
+                    </a>
                     
                 </div>
             </div>
