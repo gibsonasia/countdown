@@ -4,49 +4,102 @@
     color: white;
     background-image: url('/public/footer.jpg');
     background-size: contain;
-    padding-top: 3em;
+    padding-top: 2em;
     position: relative;
-    bottom: 0;
-    width: 100%;
     display: flex;
     flex-direction: column;
-    flex: 1;
     height: 300px;
-    flex-shrink: 0;
   }
 
 .container {
-    text-align: center;
-    vertical-align: text-top;
     backdrop-filter: blur(4px);
+
 }
 
-.col {
-    float: left;
+.col1 { 
+    float: center;
     width: 33.33%;
     text-align: left;
 }
+
+.col2 {
+    float: center;
+    width: 33.33%;
+    text-align: center;
+}
+
+.col3 {
+    width: 33.33%;
+    text-align: right;
+}
+
+/* Used to control each row */
 .row {
     display: flex;
     flex: 33.33%;
     padding: 5px;
 }
 
+/* Used to control the address nad icons portion */
 ul {
     list-style-type: none;
+    text-align: center;
+}
+
+/* Used to control the address portion */
+li {
+    font-size: 20px;
     text-align: left;
 }
 
-li {
+/* Used to manage the disclaimer */
+p {
+    font-size: 8px;
+    max-width: 250px;
+    position: absolute;
+    bottom: 3em;
+    right: 0;
+    text-align: left;
+}
+
+/* Puts space between icons */
+a { 
+    padding: 10px 30px;
+}
+
+input {
     font-size: 20px;
 }
 
-p {
-    font-size: 8px;
-    max-width: 200px;
-    margin-top: 100px;
+button {
+    background-color: #006400 ;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
-.FaTwitterSquare, .FaFacebookSquare, .FaInstagramSquare {
-    height: 30px;
-    width: 30px;
+
+
+button:hover,
+button:focus {
+  background-color: #6edb6e;
 }
