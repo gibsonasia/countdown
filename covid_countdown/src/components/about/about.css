@@ -16,11 +16,11 @@ body {
 }
 
 
-h1 {                                     /* Sets the font weight, font size, font height, and margin bottom of h1 */
-	font-weight: 800;
-	font-size: 60px;
-	line-height: 1.2;
-	margin-bottom: 10px;
+h2 {                                     /* Sets the font weight, font size, font height, and margin bottom of h1 */
+	text-align: center;
+  	text-transform: uppercase;
+  	color:#2c2c2c;
+  	font-size: 52px;
 }
 
 
