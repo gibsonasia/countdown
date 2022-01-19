@@ -8,7 +8,6 @@
     width: 30%;
     margin: auto;
     margin-top: 0;
-    border-radius: 6px;
     padding: 10px;
   }
     
@@ -57,12 +56,32 @@
 
   .covid-test-link {
     font-size: 1.5rem;
+    color: #4f73eb;
+
   }
 
  
-.covidData_button{
+.covidData__input button {
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #4f73eb;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(71, 67, 67);
+    cursor: pointer;
+  }
+
+  .covidData_button {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .covidData h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
   }
 
   

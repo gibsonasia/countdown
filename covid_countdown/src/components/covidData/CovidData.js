@@ -83,7 +83,7 @@ function CovidData() {
       <div class="covidData_button">
       <MyButton
           text="Get free covid tests here."
-          bck="#29C5F6"
+          bck="#4f73eb"
           color="#ffffff"
           link={"https://special.usps.com/testkits"}
         />

@@ -46,7 +46,7 @@ class Discount extends Component {
 
                             <MyButton
                             text="Purchase super duper covid package"
-                            bck="#29C5F6"
+                            bck="#4f73eb"
                             color="#ffffff"
                             link="http://google.com"
                             />
