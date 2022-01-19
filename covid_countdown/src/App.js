@@ -1,11 +1,12 @@
 import About from './components/about/About';
 import Landing from './components/landing/Landing';
 import Footer from './components/header_footer/Footer'
-
+import Countdown from './components/Countdown/countdown';
 function App() {
   return (
     <div className="App">
       <Landing/>
+      <Countdown/>
       <About/>
       <Footer/>
   
